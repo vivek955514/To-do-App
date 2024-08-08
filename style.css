@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsla(209, 88%, 17%, 0.954);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.ima{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    background-color: #ffffff4d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(17, 2, 2, 0.1);
+    width: auto;
+    height: auto;
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #ebf3ef;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Input Section Styles */
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#task-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+#add-task-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#add-task-btn:hover {
+    background-color: #218838;
+}
+
+/* Task List Styles */
+.task-lists {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    width: 100%;
+    
+}
+
+li {
+    background-color: #f8f9fa;
+    
+    margin: 10px 10px;
+    padding: 10px;
+    border: 2px solid #0c0e118e;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Task Info Section */
+.task-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.task-info span:first-child {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.task-datetime {
+    font-size: 0.85em;
+    color: #888;
+}
+
+/* Button Styles */
+li button {
+    margin-left: 10px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.complete-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.complete-btn:hover {
+    background-color: #218838;
+}
+
+.edit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
